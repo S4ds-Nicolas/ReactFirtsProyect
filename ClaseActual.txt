@@ -1,0 +1,1 @@
+Clase en la que se va: https://platzi.com/home/clases/11887-reactjs/74508-actualizacion-y-renderizado-de-componentes-con-est/
