@@ -1,13 +1,16 @@
 import './App.css';
-import Counter from './components/counter';
+import ToggleButton from "./components/toggleButton";
+import NameForm from "./components/nameForm";
+import CounterWithEffect from './components/counterWithEffect';
+
 
 function App() {
-  const Items = ["React", "javaSript", "Vite"];
   
   return(
     <div>
-      <h1>Hola mundo </h1>
-      <Counter></Counter>
+      <CounterWithEffect></CounterWithEffect>
+      <ToggleButton></ToggleButton>
+      <NameForm></NameForm>
     </div>
 
   )
