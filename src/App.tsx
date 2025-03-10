@@ -9,7 +9,9 @@ function App() {
   return(
     <div>
       <CounterWithEffect></CounterWithEffect>
+      <div></div>
       <ToggleButton></ToggleButton>
+      <div></div>
       <NameForm></NameForm>
     </div>
 
