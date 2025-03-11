@@ -1,12 +1,10 @@
 import './App.css'
-import Button from './components/button/button'
-
+import Text from './components/text/text'
 function App() {
 
   return (
     <>
-     <Button blue>hola</Button>
-     <Button>Gris</Button>
+    <Text></Text>
 
     </>
   )

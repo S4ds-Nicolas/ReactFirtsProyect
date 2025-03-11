@@ -1,1 +1,1 @@
-Clase en la que se va: https://platzi.com/home/clases/11887-reactjs/74514-introduccion-a-librerias-de-estilos-como-tailwind/
+Clase en la que se va: https://platzi.com/home/clases/11887-reactjs/74517-manejo-de-errores-y-carga-en-aplicaciones-react/
