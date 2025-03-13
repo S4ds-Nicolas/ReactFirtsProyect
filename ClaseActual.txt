@@ -1,1 +1,1 @@
-Clase en la que se va: https://platzi.com/home/clases/11887-reactjs/74517-manejo-de-errores-y-carga-en-aplicaciones-react/
+Clase en la que se va: https://platzi.com/home/clases/11887-reactjs/74519-introduccion-a-usereducer-manejo-avanzado-del-esta/

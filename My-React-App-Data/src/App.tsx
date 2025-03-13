@@ -1,12 +1,12 @@
 import './App.css'
-import StaticComponent from './componnets/StaticComponent'
-import UserList from './componnets/userlist'
+import SearchPost from './componnets/searchPost/SearchPost'
+
+
 function App() {
 
   return (
     <>
-      <UserList></UserList>
-      <StaticComponent></StaticComponent>
+    <SearchPost></SearchPost>
     </>
   )
 }
