@@ -1,21 +1,24 @@
-import './App.css';
-import ToggleButton from "./components/toggleButton";
-import NameForm from "./components/nameForm";
-import CounterWithEffect from './components/counterWithEffect';
+import { createContext, useContext, useState } from 'react'
+import './App.css'
 
 
-function App() {
-  
-  return(
-    <div>
-      <CounterWithEffect></CounterWithEffect>
-      <div></div>
-      <ToggleButton></ToggleButton>
-      <div></div>
-      <NameForm></NameForm>
-    </div>
-
-  )
+type ThemeContextType = {
+  theme : String ;
+  toggleTheme:  () => void;
 }
 
-export default App
+const ThemeContext = createContext<ThemeContextType>;
+
+function ThemeProvider({ children }: { children: React.ReactNode }) {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  };
+
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+}
